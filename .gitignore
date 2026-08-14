@@ -1,0 +1,41 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model checkpoints & large tensor files
+*.pt
+*.pth
+checkpoints/
+
+# Intermediate experimental results & logs
+results/
+*.log
+.DS_Store
+
+# Ignore non-PDF manuscript formats & scratch files
+*.docx
+*.html
+*.tex
+*.md
+!README.md
+math_eqs/
+test_*.png
+test_*.py
+smoke_test.py
+render_*.py
+convert_*.py
+chat.py
+generate_academic_pdf.py
+generate_docx_and_pdf.py
+setup_env.sh
+run_ablations.sh
+
+# Large datasets / cache
+.cache/
+data/raw/
